@@ -60,7 +60,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/maturada/MultiPeerKit.git" }
+spec.source       = { :git => "https://github.com/maturada/MultiPeerKit.git", :tag => "0.0.1"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
