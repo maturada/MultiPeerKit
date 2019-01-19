@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D58CAACB20F8BBD800BADFDA /* UniversalMultiPeerKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D58CAACE20F8BBD800BADFDA /* Build configuration list for PBXAggregateTarget "UniversalMultiPeerKit" */;
+			buildPhases = (
+				D58CAACF20F8BC2700BADFDA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalMultiPeerKit;
+			productName = UniversalMultiPeerKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D568114E20F8184C0014E966 /* MultiPeerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D568114020F8184C0014E966 /* MultiPeerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D568115E20F818940014E966 /* MPKAdvertiserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568115720F818940014E966 /* MPKAdvertiserService.swift */; };
+		D568115F20F818940014E966 /* MPKSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568115820F818940014E966 /* MPKSessionService.swift */; };
+		D568116020F818940014E966 /* MPKAdvertiserServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568115920F818940014E966 /* MPKAdvertiserServiceHandler.swift */; };
+		D568116120F818940014E966 /* MPKBrowserServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568115A20F818940014E966 /* MPKBrowserServiceHandler.swift */; };
+		D568116320F818940014E966 /* MPKBrowserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568115C20F818940014E966 /* MPKBrowserService.swift */; };
+		D568116420F818940014E966 /* MPKSessionServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568115D20F818940014E966 /* MPKSessionServiceHandler.swift */; };
+		D56811A320F8200B0014E966 /* MPKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56811A220F8200B0014E966 /* MPKManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D568113D20F8184C0014E966 /* MultiPeerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiPeerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D568114020F8184C0014E966 /* MultiPeerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiPeerKit.h; sourceTree = "<group>"; };
+		D568114120F8184C0014E966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D568115720F818940014E966 /* MPKAdvertiserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPKAdvertiserService.swift; sourceTree = "<group>"; };
+		D568115820F818940014E966 /* MPKSessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPKSessionService.swift; sourceTree = "<group>"; };
+		D568115920F818940014E966 /* MPKAdvertiserServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPKAdvertiserServiceHandler.swift; sourceTree = "<group>"; };
+		D568115A20F818940014E966 /* MPKBrowserServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPKBrowserServiceHandler.swift; sourceTree = "<group>"; };
+		D568115C20F818940014E966 /* MPKBrowserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPKBrowserService.swift; sourceTree = "<group>"; };
+		D568115D20F818940014E966 /* MPKSessionServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPKSessionServiceHandler.swift; sourceTree = "<group>"; };
+		D56811A220F8200B0014E966 /* MPKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPKManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D568113920F8184C0014E966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D568113320F8184C0014E966 = {
+			isa = PBXGroup;
+			children = (
+				D568113F20F8184C0014E966 /* MultiPeerKit */,
+				D568113E20F8184C0014E966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D568113E20F8184C0014E966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D568113D20F8184C0014E966 /* MultiPeerKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D568113F20F8184C0014E966 /* MultiPeerKit */ = {
+			isa = PBXGroup;
+			children = (
+				D568114020F8184C0014E966 /* MultiPeerKit.h */,
+				D568115720F818940014E966 /* MPKAdvertiserService.swift */,
+				D568115920F818940014E966 /* MPKAdvertiserServiceHandler.swift */,
+				D568115C20F818940014E966 /* MPKBrowserService.swift */,
+				D568115A20F818940014E966 /* MPKBrowserServiceHandler.swift */,
+				D568115820F818940014E966 /* MPKSessionService.swift */,
+				D568115D20F818940014E966 /* MPKSessionServiceHandler.swift */,
+				D56811A220F8200B0014E966 /* MPKManager.swift */,
+				D568114120F8184C0014E966 /* Info.plist */,
+			);
+			path = MultiPeerKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D568113A20F8184C0014E966 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D568114E20F8184C0014E966 /* MultiPeerKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D568113C20F8184C0014E966 /* MultiPeerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D568115120F8184C0014E966 /* Build configuration list for PBXNativeTarget "MultiPeerKit" */;
+			buildPhases = (
+				D568113820F8184C0014E966 /* Sources */,
+				D568113920F8184C0014E966 /* Frameworks */,
+				D568113A20F8184C0014E966 /* Headers */,
+				D568113B20F8184C0014E966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiPeerKit;
+			productName = MultiPeerKit;
+			productReference = D568113D20F8184C0014E966 /* MultiPeerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D568113420F8184C0014E966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "David Matura";
+				TargetAttributes = {
+					D568113C20F8184C0014E966 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					D58CAACB20F8BBD800BADFDA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D568113720F8184C0014E966 /* Build configuration list for PBXProject "MultiPeerKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D568113320F8184C0014E966;
+			productRefGroup = D568113E20F8184C0014E966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D568113C20F8184C0014E966 /* MultiPeerKit */,
+				D58CAACB20F8BBD800BADFDA /* UniversalMultiPeerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D568113B20F8184C0014E966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D58CAACF20F8BC2700BADFDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"MultiPeerKit\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"MultiPeerKit\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/MultiPeerKit.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/MultiPeerKit.framework/Modules/MultiPeerKit.framework/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/MultiPeerKit.framework/Modules/MultiPeerKit.framework\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/MultiPeerKit.framework/MultiPeerKit\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/MultiPeerKit.framework/MultiPeerKit\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/MultiPeerKit.framework/MultiPeerKit\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/MultiPeerKit.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D568113820F8184C0014E966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56811A320F8200B0014E966 /* MPKManager.swift in Sources */,
+				D568116120F818940014E966 /* MPKBrowserServiceHandler.swift in Sources */,
+				D568116320F818940014E966 /* MPKBrowserService.swift in Sources */,
+				D568115E20F818940014E966 /* MPKAdvertiserService.swift in Sources */,
+				D568116020F818940014E966 /* MPKAdvertiserServiceHandler.swift in Sources */,
+				D568115F20F818940014E966 /* MPKSessionService.swift in Sources */,
+				D568116420F818940014E966 /* MPKSessionServiceHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D568114F20F8184C0014E966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D568115020F8184C0014E966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D568115220F8184C0014E966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5FC8563X9C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MultiPeerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.matura.MultiPeerKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D568115320F8184C0014E966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5FC8563X9C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MultiPeerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.matura.MultiPeerKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D58CAACC20F8BBD800BADFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FC8563X9C;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D58CAACD20F8BBD800BADFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FC8563X9C;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D568113720F8184C0014E966 /* Build configuration list for PBXProject "MultiPeerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D568114F20F8184C0014E966 /* Debug */,
+				D568115020F8184C0014E966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D568115120F8184C0014E966 /* Build configuration list for PBXNativeTarget "MultiPeerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D568115220F8184C0014E966 /* Debug */,
+				D568115320F8184C0014E966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58CAACE20F8BBD800BADFDA /* Build configuration list for PBXAggregateTarget "UniversalMultiPeerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58CAACC20F8BBD800BADFDA /* Debug */,
+				D58CAACD20F8BBD800BADFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D568113420F8184C0014E966 /* Project object */;
+}
