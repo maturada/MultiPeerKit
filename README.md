@@ -6,7 +6,7 @@ Setup handlers and blocks and that's all you need to do.
 
 ```Swift
 
-let manager = MPKManager(displayName: "DisplayName") /// Se your display name.
+let manager = MPKManager(displayName: "DisplayName") /// Set your display name.
 manager.startTransceiving()
         
 // Display all devices found in your area in your list.
@@ -40,7 +40,23 @@ Advertiser, Browser and other services can be used separately along with the res
 
 **MPKAdvertiseService** sends informations as your display name to notify devices in your area.
 
+```Swift
+public protocol MPKAdvertiserServiceHandler {
+     // Delegates informations about received invitations or advertising issues. 
+    func didReceiveInvitation(from peer: MCPeerID, with context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void)
+    func didNotStartAdvertisingPeer(error: Error)
+}
+```
+
 **MPKBrowserService** searches for other devices near by, easy to setup only when need to.
+
+```Swift
+public protocol MPKBrowserServiceHandler: class {
+     // Delegates lost/found peers in your area.
+    func foundPeer(peer: MCPeerID, withDiscoveryInfo info: [String : String]?)
+    func lostPeer(peer: MCPeerID)
+}
+```
 
 ## Setup
 
