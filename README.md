@@ -65,5 +65,5 @@ pod 'MultiPeerKit', :git => 'https://github.com/maturada/MultiPeerKit'
 ```
 
 ```Ruby
-import MultiPeerKit*
+import MultiPeerKit
 ```
