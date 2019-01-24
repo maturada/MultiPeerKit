@@ -1,5 +1,5 @@
 # MultiPeerKit
-Multipeer connectivity library.
+![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
 
 MPKManager handles everything for you through the completion blocks & listeners/handlers.
 Setup handlers and blocks and that's all you need to do.
@@ -58,8 +58,12 @@ public protocol MPKBrowserServiceHandler: class {
 }
 ```
 
-## Setup
+## How to use?
 
-*pod 'MultiPeerKit', :git => 'https://github.com/maturada/MultiPeerKit'*
+```Ruby
+pod 'MultiPeerKit', :git => 'https://github.com/maturada/MultiPeerKit'
+```
 
-*import MultiPeerKit*
+```Ruby
+import MultiPeerKit*
+```
